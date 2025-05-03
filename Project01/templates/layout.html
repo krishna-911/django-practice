@@ -53,7 +53,7 @@
                 {% csrf_token %}
               </form>
             {% else %}
-              <a href="{% url 'login' %}">Login</a>
+              <a class="btn btn-success" href="{% url 'login' %}">Login</a>
               <a href="{% url 'registration' %}">Register</a>
             {% endif %}
           </div>
